@@ -1,0 +1,112 @@
+.ContainerLogin{
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 100vh;
+    font-family: Roboto;
+}
+.BannerLogin{
+    background-color: #F0F0F0;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 3% 8%;
+}
+.BannerLogin figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 5%;
+}
+
+.BannerLogin figure img{
+    width: 100%;
+    object-fit: cover;
+}
+.DadosLogin{
+    padding: 8% 14%;
+}
+.DadosLogin>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+}
+.DadosLogin h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--text);
+    margin-bottom: 5%
+}
+.DadosLogin p{
+    font-size: 1.1rem;
+    margin-bottom: 6%;
+    color: var(--colorIcon)
+}
+.forgotPassword{
+    width: inherit;
+    text-align: end;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.checkbox {
+    position: relative;
+    width: auto;
+    height: auto;
+    border-radius: 10rem;
+    float: left;
+    overflow: hidden
+  }
+  .checkbox div {
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+line-height: 25px;
+transition: 0.5s ease;
+background-color: #F0F0F0;
+color: var(--textSecondary)
+
+}
+
+.checkbox  input {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+opacity: 0;
+cursor: pointer;
+}
+
+.checkbox span{
+    display: block;
+    padding: 2% 1rem;
+}
+
+.checkbox input[type="checkbox"]:checked ~ div {
+background-color: var(--primary);
+color: var(--textLight)
+}
+
+.titleEdit{
+    font-size: 1.6rem;
+    font-weight: 400; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%
+}
+
+.ContentCheckbox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .6rem;
+    margin-top: 3%;
+}

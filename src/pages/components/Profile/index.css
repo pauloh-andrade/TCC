@@ -1,0 +1,146 @@
+@media only screen and (min-width: 1600px){
+    .ContainerFeed{
+        padding: 2% 10%;
+    }
+    .OptionsProfile>div{
+        padding: 4% 8%;
+    }
+}
+
+.ContainerProfile{
+    width: 100%;
+    max-width: 2000px;
+    padding: 2% 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.ContainerCards{
+    width: 75vw ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+}
+
+.ContentProfile>div:nth-of-type(3)>div{
+    width: 100%;
+    padding: 0 8%;
+}
+
+.ContentProfile h1{
+    font-size: 1.4rem
+}
+
+.ContentProfile>div:nth-of-type(3)>div p{
+    font-size: 1.2rem
+}
+
+.ContentProfile>div>div>div:first-of-type{
+    margin-top: 1.5rem;
+}
+
+.ContainerInfo{
+    display: flex;
+    gap: 4rem;
+}
+
+.InfoTexts{
+    width: 50%;
+    padding-left: 8%;
+}
+.InfoTexts>h1{
+    font-size: 2rem;
+    color: var(--text);
+    margin-bottom: 2%;
+}
+
+.InfoTexts>p{
+    color: var(--colorIcon);
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 3%;
+}
+
+.InfoStats{
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 2%;
+}
+.InfoStats>p{
+    font-size: 1.3rem;
+    width: -webkit-fill-available;
+    color: var(--textSecondary);
+}
+
+.InfoStats>span{
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: var(--text);
+}
+
+.MyAvatar{
+    margin-top: -9%;
+    margin-left: 8%;
+    margin-bottom: 2%;
+    /* width: ${props => props.largura}; */
+    /* height: ${props => props.altura}; */
+    border: 3.75px solid #fff;
+    background: var(--textGray);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+
+.MyAvatar>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.InfosCards{
+    display: flex;
+    /* flex-direction: ${props => props.flexDirecao}; */
+    align-items: center;
+    /* padding: ${props => props.espaco}%; */
+    gap: 1rem;
+}
+.InfosCards>h2{
+    font-weight: 500;
+    color: var(--text);     
+}
+
+.InfoButtons{
+    margin-top: -7%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 8%;
+}
+.InfoButtons>div:first-of-type{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.InfoButtons>h2{
+    margin: 5% 0;
+    color: var(--colorIcon);
+    font-weight: 500;
+    font-size: 1.6rem
+}
+
+.InfosCards{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.InfosCards>h2{
+        font-weight: 500;
+        color: var(--text);
+}

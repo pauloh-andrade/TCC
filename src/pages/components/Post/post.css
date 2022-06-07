@@ -1,0 +1,74 @@
+.PostCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: ${props => props.espaco}%; */
+    gap: 1rem;
+}
+
+.PostPrimary{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+.PostPrimary>div{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.PostPrimary>div:nth-of-type(2){
+    position: relative;
+    top: -.5vh
+}
+.PostPrimary>div>div>h2{
+    color: var(--text);
+    font-weight: 500;
+    margin-bottom: 2%;
+    font-size: 1.2rem;
+}
+.PostPrimary>div>div>h2::first-letter{
+    text-transform: uppercase;
+}
+.PostPrimary>div>div>span, .PostPrimary>div>p{
+    color: var(--colorIconLight);
+    font-weight: 400;
+    font-size: .8rem;
+}
+.PostMain>h2{
+    font-size: 1.2rem;
+    color: var(--text);
+    margin-bottom: 2%;
+}
+.PostMain>h2{
+    font-size: 1.2rem;
+    color: var(--text);
+    margin-bottom: 2%;
+}
+.PostMain>img{
+    width: 100%;
+    max-height: 40vh;
+    object-fit: cover;
+    border-radius: .3rem;
+    margin-bottom: 2%;
+}
+.PostMain>div{
+    display: flex;
+    gap: 2rem;
+    padding: 0 1%;
+}
+.PostMain>div>div{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-weight: 500;
+    color: var(--primary);
+    font-size: .9rem;
+}
+.PostMain>p{
+    color: var(--colorIcon);
+    margin-bottom: 2%;
+}
+
+
+

@@ -1,0 +1,64 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root{
+	--primary: #3D97F0;
+    --gradientStart: #6AC1FF;
+    --gradientEnd: #1A76E3;
+    --inputColor: #E8EBEE;
+    --colorIconLight: #C1C5CA;
+    --text: #404040;
+    --textSecondary: #565656;
+    --colorIcon: #737C88;
+    --colorIconInput: #D5D5D5;
+    --textLight: #fff;
+    --textGray: #B6B6B6;
+    --transparent: transparent;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+	border: 0;
+}
+.css-i9fmh8-MuiBackdrop-root-MuiModal-backdrop {
+	background-color: #c4c4c46d;
+	-webkit-backdrop-filter: saturate(180%) blur(2px);
+	backdrop-filter: saturate(180%) blur(2px);
+}
+.MuiListItemButton-root.Mui-selected{
+    background-color: #22507E;
+
+}
+
+.css-1prj2nk{
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+}
+
+.css-10cjb2k-MuiTableCell-root,
+.css-pgo35k-MuiTableCell-root {
+	background-color: #ffffff;
+	border: 0;
+}
+.css-79ws1d-MuiModal-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MuiTableCell-sizeSmall{
+	padding: 4px;
+	height: 10px;
+}
+.css-1rz7b02-MuiButtonBase-root-MuiButton-root{
+    z-index: -1
+}
+.MuiTouchRipple-root .css-8je8zh-MuiTouchRipple-root{
+    z-index: -1
+}

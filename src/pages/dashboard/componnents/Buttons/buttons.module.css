@@ -1,0 +1,50 @@
+.ContentCheckbox{
+    display: flex;
+    flex-wrap: wrap;
+    height: 30px;
+    /* gap: .6rem; */
+    /* margin-bottom: 5%; */
+}
+
+
+.checkbox {
+    position: relative;
+    width: auto;
+    height: 30px;
+ 
+    float: left;
+  }
+  .checkbox div {
+    border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+line-height: 25px;
+transition: 0.5s ease;
+background-color: #F0F0F0;
+color: #565656;
+font-family: 'Roboto';
+font-size: 16px;
+
+}
+
+.checkbox  input {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 30px;
+opacity: 0;
+cursor: pointer;
+}
+
+.checkbox span{
+    display: block;
+    padding: 3px 12px;
+}
+
+
+.checkbox input[type="checkbox"]:checked ~ div {
+background-color: #3D97F0;
+color: #fff
+}

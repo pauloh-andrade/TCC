@@ -1,0 +1,268 @@
+@media only screen and (min-width: 600px){
+    .ContainerFeed{
+        width: 100%;
+        max-width: 2000px;
+        padding: 2% 6%;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-gap: 1.5rem;
+        justify-content: center;
+        position: relative;
+        margin: 0 auto;
+    }
+    .ContainerFeed>div{
+        min-height: 30vh;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .OptionsProfile{
+        border-top: 1px solid var(--colorIconLight);
+        display: flex;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .OptionsProfile>div{
+        display: flex;
+        gap: .5rem;
+        padding: 4% 5%;
+        align-items: center;
+        color: var(--colorIcon);
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+    .OptionsProfile>div:first-of-type{
+        border-right: solid 1px var(--colorIconLight);
+    }
+}
+@media only screen and (min-width: 768px){}
+@media only screen and (min-width: 992px){}
+@media only screen and (min-width: 1200px){}
+@media only screen and (min-width: 1440px){}
+
+
+
+.ContentFilters{
+    padding: 8%;
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+.ContentFilters>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ContentFilters>div>span{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    color: var(--text);
+    font-size: 1.6rem;
+}
+.ContentFilters>div>span>p{
+    font-weight: 500;
+}
+.ContentFilters>div>p{
+    color: var(--colorIcon);
+    font-weight: 300;
+    text-decoration: underline;
+}
+.ContentFilters>div:nth-of-type(2)>h2{
+    font-size: 1.2rem;
+    color: var(--text);
+}
+.CreatePost{
+    padding: 2% 4%;
+    width: 100%;
+    height: 100%;
+    
+    
+    
+    
+    
+}
+.CreatePost>div:first-of-type{
+    display: flex;
+    align-items: center;
+}
+.CreatePost>div:first-of-type>div:first-of-type{
+    margin: 0;
+}
+.CreatePost>div:first-of-type>h1{
+    margin-left: 2%;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #404040;
+}
+.CreatePost>div:nth-of-type(2)>span{
+    font-size: 1.3rem;
+    color: var(--colorIconLight);
+    cursor: pointer;
+}
+.CreatePost>div:nth-of-type(3){
+    display: flex;
+    gap: 2rem;
+    margin: 2% 2rem;
+}
+.imagemVazia{
+    display: none;
+}
+.imagemContent{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    background-color: rgb(200, 200, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 100px; */
+    cursor: pointer;
+    /* border: 1px solid rgb(194, 194, 194); */
+    border-radius: 4px;
+}
+.plusImage,.labelImage{
+  
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+  
+    background-color: rgb(200, 200, 200);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 100px; */
+    cursor: pointer;
+    /* border: 1px solid rgb(194, 194, 194); */
+    border-radius: 4px;
+}
+
+.labelImage{
+    padding: 0px;
+    
+}
+.image{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+.BoxAnexos{
+    position: relative;  
+}
+.BoxAnexos>input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    cursor: pointer;
+}
+.BoxAnexos>label>span{
+    cursor: pointer;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    z-index: 5;
+    font-size: .85rem;
+    font-weight: 600;
+    color: var(--text)
+}
+.BoxAnexos>span{
+    cursor: pointer;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    gap: .4rem;
+    z-index: 5;
+    font-size: .85rem;
+    font-weight: 600;
+    color: var(--text)
+}
+.QuestionFeed{
+    padding:4% 0 4% calc(3rem + 2%);
+    margin-bottom: 4%;
+    border-bottom: solid 1px var(--colorIconLight);
+}
+
+.TitleCreatePubli{
+    text-align: center;
+    color: var(--primary);
+    border-bottom: var(--colorIconLight);
+    padding-bottom: 3%;
+}
+
+.CreatePubli{
+    padding: 5% 6%
+}
+
+.QuestionCreatePubli{
+    width: 100%;
+    margin: 3% 0 3% 0;
+    font-size: 1.7rem;
+    font-weight: 600;
+    outline: none;
+    border: none;
+    color: var(text);
+}
+.QuestionCreatePubli::placeholder{
+    color: #454545;
+    font-weight: 600;
+}
+
+.DescCreatePubli {
+    width: 100%;
+    margin: 0 0 4% 0;
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+    color: var(--text);
+}
+.ContainerAnexos{
+    width: 100%;
+    box-shadow: 0px 0px 7px 2px rgb(0 0 0 / 5%);
+    border-radius: 5px;
+    padding: 4% 3%;
+    margin-bottom: 4%;
+}
+.ContainerAnexos>div{
+    margin-right: 3rem!important;
+}
+.BoxButtonPublicar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    gap: 2rem;
+}
+
+.RankingCardFeed{
+    padding: 6% 8%;
+}
+.RankingCardFeed>div{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    color: var(--text);
+    margin-bottom: 1rem;
+}
+.RankingCardFeed>div:first-of-type>h2{
+    font-size: 1.4rem;
+}
+.RankingCardFeed>div h3{
+    font-size: 1.35rem
+}
+    
+.AvatarRanking{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.AvatarRanking>div{
+    border: 3.25px solid #f8d000;
+    position: relative;
+}
+    

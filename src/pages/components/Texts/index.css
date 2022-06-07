@@ -1,0 +1,8 @@
+.Title{
+    background-image: linear-gradient(135deg, var(--gradientStart), var(--gradientEnd) 75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: var(--primary);
+    font-weight: 800;
+}

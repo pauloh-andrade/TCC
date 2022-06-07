@@ -1,0 +1,109 @@
+.ContainerEditProfile{
+    width: 100%;
+    max-width: 2000px;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    font-family: poppins;
+
+}
+
+.BackgroundGradient{
+    background-image: linear-gradient(135deg, #6AC1FF, #1A76E3 90%);
+    height: 200px;
+    width: 100%;
+    padding: 2% 12%;
+}
+
+.BackgroundGradient h1{
+    color: var(--textLight);
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+.ContentEditProfile{
+    padding: 0 20%;
+    display: flex;
+    justify-content: center;
+}
+.BoxEditProfile{
+    width: 100%;
+    border-radius: 0.4rem;
+    background: rgb(255 255 255 / 100%);
+    margin-top: -12%;
+    z-index: 10;
+    padding: 3% 6%;
+    justify-content: space-between;
+}
+.BoxEdit{
+    display: flex;
+}
+
+.ImageEdit h2{
+    color: var(--textSecondary);
+    font-size: 1.6rem;
+    font-weight: 400
+}
+
+.ImageEdit figure{
+    overflow: hidden;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    margin: 5% 0;
+}
+
+.ImageEdit img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ButtonsEdit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 6rem 5%;
+    gap: .5rem
+}
+
+.titleEdit{
+    font-size: 1.6rem;
+    font-weight: 400; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%
+}
+
+.boxAreas{
+    margin-top: 1%
+}
+.BoxAchievement{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+    gap: 1rem 2rem;
+    padding: 2% 8% 0 8%;
+}
+
+.BoxAchievement>h2{
+    color: #737C88;
+    font-weight: 500;
+    font-size: 1.6rem;
+    display: block;
+    width: 100%;
+}
+
+.BoxAchievement>div{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+.BoxAchievement>div>svg{
+    width: 40px;
+    height: 40px;
+}
+.BoxAchievement>div>p{
+    font-weight: 600;
+    color: var(--primary);
+    font-size: 1.1rem;
+}
